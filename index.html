@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Plants Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.3/css/all.css"
+      integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <style>
+      img {
+        border-radius: 9px;
+        border: 4px solid #6ce6e3;
+      }
+    </style>
+    <!-- Navbar section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo">PLANTS</a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#services" class="navbar__links" id="services-page"
+              >Services</a
+            >
+          </li>
+          <li class="navbar__btn">
+            <a href="#sign-up" class="button" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+        <h1 class="hero__heading">Choose your<span> plants</span></h1>
+        <p class="hero__description">Many Possibilities</p>
+        <button class="main__btn"><a href="#">Explore</a></button>
+      </div>
+    </div>
+
+    <!-- about section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__img--container">
+          <div class="main__img--card">
+            <img src="macroplant.jpeg" alt="about-plant" />
+          </div>
+        </div>
+        <div class="main__content">
+          <h1>What do we do?</h1>
+          <h2>We help find your perfect plant!</h2>
+          <p>Schedule a call to learn more about our plants</p>
+          <button class="main__btn"><a href="#">Schedule a Call</a></button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Services section -->
+    <div class="services" id="services">
+      <h1>Our Services</h1>
+      <div class="services__wrapper">
+        <div class="services__card">
+          <h2>Plants of All Sizes</h2>
+          <p>Small, big, or medium</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+
+        <div class="services__card">
+          <h2>Are you Ready?</h2>
+          <p>Take the Leap</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+
+        <div class="services__card">
+          <h2>Find Your Color</h2>
+          <p>Over 100 different colors!</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+
+        <div class="services__card">
+          <h2>Many Possibilities!</h2>
+          <p>Over 1000 Plants!</p>
+          <div class="services__btn"><button>Get Started</button></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Features -->
+
+    <div class="main" id="sign-up">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Join Our Team</h1>
+          <h2>Sign up Today</h2>
+          <p>See what makes us different</p>
+          <button class="main__btn"><a href="#">Sign Up</a></button>
+        </div>
+        <div class="main__img--container">
+          <div class="main__img--card" id="card-2">
+            <img src="colorful-plant.jpeg" alt="color-plant" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>About Us</h2>
+            <a href="/sign-up">How it works</a>
+            <a href="/">Testimonials</a>
+            <a href="/">Careers</a>
+            <a href="/">Terms of Service</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Contact Us</h2>
+            <a href="/">Contact</a>
+            <a href="/">Support</a>
+            <a href="/">Destinations</a>
+          </div>
+        </div>
+
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Videos</h2>
+            <a href="/">Submit a Video</a>
+            <a href="/">Ambassadors</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="https://www.instagram.com/">Instagram</a>
+            <a href="https://www.facebook.com/">Facebook</a>
+            <a href="https://www.youtube.com/">Youtube</a>
+            <a href="https://twitter.com/">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="/" id="footer__logo">PLANTS</a>
+          </div>
+          <p class="website__rights">© PLANTS 2021. All rights reserved</p>
+          <div class="social__icons">
+            <a
+              href="https://www.facebook.com/"
+              class="social__icon--link"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.youtube.com/" class="social__icon--link"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="https://www.instagram.com/" class="social__icon--link"
+              ><i class="fab fa-instagram"></i
+            ></a>
+
+            <a href="https://twitter.com/" class="social__icon--link"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a href="https://www.linkedin.com/" class="social__icon--link"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
